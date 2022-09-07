@@ -6,6 +6,9 @@ import Alb from './components/Alb'
 import AlbSing from './components/AlbSing';
 import Edit from './components/Edit'
 
+import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.mini.xss'
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +20,7 @@ function App() {
           <Route path='/:id/edit' element={<Edit />} />
         </Routes>
       </Router>
+      <Button>TESTING</Button>
       <img src="https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg"></img>
     </div>
   );
