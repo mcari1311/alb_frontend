@@ -17,7 +17,7 @@ function Create() {
             <h1> Create a new Word!</h1>
             <form onSubmit={createTheAlbSing}>
                 <input type='text' name='albWord' id='dsc' />
-                <input type='submit'/>
+                <input type='submit' />
             </form>
         </div>
     )
