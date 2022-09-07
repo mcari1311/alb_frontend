@@ -7,7 +7,7 @@ import AlbSing from './components/AlbSing';
 import Edit from './components/Edit'
 
 import Button from 'react-bootstrap/Button'
-import 'bootstrap/dist/css/bootstrap.mini.xss'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
