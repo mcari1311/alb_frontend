@@ -17,6 +17,7 @@ function App() {
           <Route path='/:id/edit' element={<Edit />} />
         </Routes>
       </Router>
+      <img src="https://cdn.britannica.com/00/6200-004-42B7690E/Flag-Albania.jpg"></img>
     </div>
   );
 }
