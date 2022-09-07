@@ -1,6 +1,7 @@
 import {getAlb} from '../services/alb.api'
 import {useState, useEffect} from 'react'
-// import Create from './Create'
+import Create from './Create'
+
 export default function Alb() {
     const [alb, setAlb] = useState([])
     useEffect(() => {
@@ -19,7 +20,7 @@ export default function Alb() {
     })}
     
     </ul>
-    {/* <Create /> */}
+    <Create />
     
     
     </div>

@@ -27,3 +27,9 @@ export const editAlbSing = (id, updatedAlbSing) => {
     const response = axios.put(URL, updatedAlbSing)
     return response
 }
+
+export const createAlbSing = (albSing) => {
+    const URL = 'http://localhost:3001/alb'
+    const response = axios.post(URL, albSing)
+    return response 
+}
