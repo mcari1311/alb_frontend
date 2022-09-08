@@ -1,8 +1,13 @@
 # Learn Albanian App FRONT-END
 
 ### Link to Website 
-https://marieacradestore.herokuapp.com/
+https://learnalb-frontend.herokuapp.com/?albWord=Si+je%3F%3F
 
+### Link to BACK-END git repo
+https://github.com/mcari1311/alb_backend
+
+### Link to BACK-END website
+https://learnalb-backend.herokuapp.com/alb
 
 ### Description
 
