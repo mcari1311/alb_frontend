@@ -40,7 +40,7 @@ export const getAlbSing = (id) => {
 
 ### List of Technologies Used
 * Javascript
-* CSS
+* CSS (bootstrap)
 
 
 ### Future Plans 
