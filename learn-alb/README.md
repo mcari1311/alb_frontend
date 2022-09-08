@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Learn Albanian App FRONT-END
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Link to Website 
+https://marieacradestore.herokuapp.com/
 
-## Available Scripts
 
-In the project directory, you can run:
+### Description
 
-### `npm start`
+Being from a very small, often unknown country has meant that growing up very few people I knew spoke it. For my project I wanted to create an effective app that helped people learn Albanian. My inspiration was quizlet/duolingo outline. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Example
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is an example code snippet from the alb.api.js file. 
 
-### `npm test`
+```
+export const getAlbSing = (id) => {
+    const URL = `https://learnalb-backend.herokuapp.com/alb/${id}`
+    const response = axios.get(URL)
+    console.log(response)
+    return response 
+}
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
 
-### `npm run build`
+### List of Features 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Connection to data base already populated with 15+ words
+* Show route that focuses on one word
+* Link to external resource
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Routes
+ 
+ React handled the Create and Edit routes, the rest will be featured in my backend. 
 
-### `npm run eject`
+### List of Technologies Used
+* Javascript
+* CSS
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Future Plans 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Due to time constraints I wasn't able fufill the complete vision I had for this project. There are many features I'd like to add. An example is a seperate section that pushes the words that you are having difficulty with into another array so you can restudy them. Another feature I'll work on is adding audio!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
