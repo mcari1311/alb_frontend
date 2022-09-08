@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 export const getAlb = () => {
-    const URL = 'http://localhost:3001/alb'
+    const URL = 'https://learnalb-backend.herokuapp.com/alb'
     const response = axios.get(URL)
     console.log(response)
     return response 
